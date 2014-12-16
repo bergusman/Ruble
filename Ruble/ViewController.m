@@ -93,7 +93,7 @@
 - (void)didEndPlay:(NSNotification *)notification {
     [[NSNotificationCenter defaultCenter] removeObserver:self name:AVPlayerItemDidPlayToEndTimeNotification object:notification.object];
     
-    NSArray *videos = @[@"natasha.mp4", @"vanessa.mp4", @"snejanna.mp4", @"girls.mp4", @"girl2.mp4", @"anya.mp4"];
+    NSArray *videos = @[@"natasha.mp4", @"vanessa.mp4", @"snejanna.mp4", @"girls.mp4", @"girl2.mp4", @"anya.mp4", @"katya.mp4", @"vera.mp4", @"marina.mp4"];
     NSMutableArray *playerItems = [NSMutableArray array];
     
     for (NSString *video in videos) {
@@ -119,7 +119,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSArray *videos = @[@"natasha.mp4", @"vanessa.mp4", @"snejanna.mp4", @"girls.mp4", @"girl2.mp4", @"anya.mp4"];
+    NSArray *videos = @[@"natasha.mp4", @"vanessa.mp4", @"snejanna.mp4", @"girls.mp4", @"girl2.mp4", @"anya.mp4", @"katya.mp4", @"vera.mp4", @"marina.mp4"];
     NSMutableArray *playerItems = [NSMutableArray array];
     
     for (NSString *video in videos) {
