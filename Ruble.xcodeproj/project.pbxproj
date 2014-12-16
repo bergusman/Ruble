@@ -14,6 +14,14 @@
 		AD95412A1A40D5DA0081FB17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9541291A40D5DA0081FB17 /* Images.xcassets */; };
 		AD95412D1A40D5DA0081FB17 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD95412B1A40D5DA0081FB17 /* LaunchScreen.xib */; };
 		AD9541391A40D5DA0081FB17 /* RubleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9541381A40D5DA0081FB17 /* RubleTests.m */; };
+		AD9541431A40D7A70081FB17 /* natasha.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD9541421A40D7A70081FB17 /* natasha.mp4 */; };
+		AD9541451A40D7AF0081FB17 /* vanessa.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD9541441A40D7AF0081FB17 /* vanessa.mp4 */; };
+		AD9541471A40E8610081FB17 /* vera.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD9541461A40E8610081FB17 /* vera.mp4 */; };
+		AD95414A1A40E8850081FB17 /* girls.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD9541491A40E8850081FB17 /* girls.mp4 */; };
+		AD95414C1A40E88C0081FB17 /* girl2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD95414B1A40E88C0081FB17 /* girl2.mp4 */; };
+		AD95414E1A40E89B0081FB17 /* anya.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD95414D1A40E89B0081FB17 /* anya.mp4 */; };
+		AD95414F1A40E89F0081FB17 /* snejanna.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD9541481A40E87F0081FB17 /* snejanna.mp4 */; };
+		AD9541521A40EE2D0081FB17 /* PlayerLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9541511A40EE2D0081FB17 /* PlayerLayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,15 @@
 		AD9541321A40D5DA0081FB17 /* RubleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9541371A40D5DA0081FB17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD9541381A40D5DA0081FB17 /* RubleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubleTests.m; sourceTree = "<group>"; };
+		AD9541421A40D7A70081FB17 /* natasha.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = natasha.mp4; sourceTree = "<group>"; };
+		AD9541441A40D7AF0081FB17 /* vanessa.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vanessa.mp4; sourceTree = "<group>"; };
+		AD9541461A40E8610081FB17 /* vera.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vera.mp4; sourceTree = "<group>"; };
+		AD9541481A40E87F0081FB17 /* snejanna.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = snejanna.mp4; sourceTree = "<group>"; };
+		AD9541491A40E8850081FB17 /* girls.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = girls.mp4; sourceTree = "<group>"; };
+		AD95414B1A40E88C0081FB17 /* girl2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = girl2.mp4; sourceTree = "<group>"; };
+		AD95414D1A40E89B0081FB17 /* anya.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = anya.mp4; sourceTree = "<group>"; };
+		AD9541501A40EE2D0081FB17 /* PlayerLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerLayerView.h; sourceTree = "<group>"; };
+		AD9541511A40EE2D0081FB17 /* PlayerLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerLayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +102,12 @@
 				AD9541211A40D5DA0081FB17 /* AppDelegate.m */,
 				AD9541231A40D5DA0081FB17 /* ViewController.h */,
 				AD9541241A40D5DA0081FB17 /* ViewController.m */,
+				AD9541501A40EE2D0081FB17 /* PlayerLayerView.h */,
+				AD9541511A40EE2D0081FB17 /* PlayerLayerView.m */,
 				AD9541261A40D5DA0081FB17 /* Main.storyboard */,
 				AD9541291A40D5DA0081FB17 /* Images.xcassets */,
 				AD95412B1A40D5DA0081FB17 /* LaunchScreen.xib */,
+				AD9541531A40F53C0081FB17 /* Videos */,
 				AD95411C1A40D5DA0081FB17 /* Supporting Files */,
 			);
 			path = Ruble;
@@ -117,6 +137,20 @@
 				AD9541371A40D5DA0081FB17 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD9541531A40F53C0081FB17 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				AD9541421A40D7A70081FB17 /* natasha.mp4 */,
+				AD9541441A40D7AF0081FB17 /* vanessa.mp4 */,
+				AD9541461A40E8610081FB17 /* vera.mp4 */,
+				AD9541481A40E87F0081FB17 /* snejanna.mp4 */,
+				AD9541491A40E8850081FB17 /* girls.mp4 */,
+				AD95414B1A40E88C0081FB17 /* girl2.mp4 */,
+				AD95414D1A40E89B0081FB17 /* anya.mp4 */,
+			);
+			name = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +233,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD95414C1A40E88C0081FB17 /* girl2.mp4 in Resources */,
 				AD9541281A40D5DA0081FB17 /* Main.storyboard in Resources */,
+				AD95414A1A40E8850081FB17 /* girls.mp4 in Resources */,
+				AD9541471A40E8610081FB17 /* vera.mp4 in Resources */,
 				AD95412D1A40D5DA0081FB17 /* LaunchScreen.xib in Resources */,
+				AD9541431A40D7A70081FB17 /* natasha.mp4 in Resources */,
 				AD95412A1A40D5DA0081FB17 /* Images.xcassets in Resources */,
+				AD95414E1A40E89B0081FB17 /* anya.mp4 in Resources */,
+				AD9541451A40D7AF0081FB17 /* vanessa.mp4 in Resources */,
+				AD95414F1A40E89F0081FB17 /* snejanna.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD9541251A40D5DA0081FB17 /* ViewController.m in Sources */,
+				AD9541521A40EE2D0081FB17 /* PlayerLayerView.m in Sources */,
 				AD9541221A40D5DA0081FB17 /* AppDelegate.m in Sources */,
 				AD95411F1A40D5DA0081FB17 /* main.m in Sources */,
 			);
