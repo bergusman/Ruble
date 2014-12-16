@@ -41,50 +41,52 @@
         if (data) {
             id json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
             if (json) {
-                double usd = [json[@"query"][@"results"][@"rate"][0][@"Rate"] doubleValue];
-                double eur = [json[@"query"][@"results"][@"rate"][1][@"Rate"] doubleValue];
-                
-                NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
-                formatter.decimalSeparator = @",";
-                formatter.minimumFractionDigits = 2;
-                formatter.maximumFractionDigits = 2;
-                
-                self.USDLabel.text = [formatter stringFromNumber:@(usd)];
-                self.EURLabel.text = [formatter stringFromNumber:@(eur)];
-                
-                if (usd > self.usd) {
-                    self.USDLabel.textColor = [UIColor colorWithRed:(202/255.0) green:(239/255.0) blue:(175/255.0) alpha:0.8];
-                } else {
-                    self.USDLabel.textColor = [UIColor colorWithRed:(239/255.0) green:(175/255.0) blue:(175/255.0) alpha:0.8];
-                }
-                
-                if (eur > self.eur) {
-                    self.EURLabel.textColor = [UIColor colorWithRed:(202/255.0) green:(239/255.0) blue:(175/255.0) alpha:0.8];
-                } else {
-                    self.EURLabel.textColor = [UIColor colorWithRed:(239/255.0) green:(175/255.0) blue:(175/255.0) alpha:0.8];
-                }
-                
-                NSShadow *shadow = [[NSShadow alloc] init];
-                shadow.shadowColor = [[UIColor blackColor] colorWithAlphaComponent:0.6];
-                shadow.shadowBlurRadius = 2;
-                
-                NSAttributedString *attributedText = [[NSAttributedString alloc] initWithString:self.USDLabel.text attributes:@{NSShadowAttributeName: shadow}];
-                self.USDLabel.attributedText = attributedText;
-                
-                attributedText = [[NSAttributedString alloc] initWithString:self.EURLabel.text attributes:@{NSShadowAttributeName: shadow}];
-                self.EURLabel.attributedText = attributedText;
-                
-                self.USDTitleLabel.textColor = self.USDLabel.textColor;
-                self.EURTitleLabel.textColor = self.EURLabel.textColor;
-                
-                attributedText = [[NSAttributedString alloc] initWithString:self.USDTitleLabel.text attributes:@{NSShadowAttributeName: shadow}];
-                self.USDTitleLabel.attributedText = attributedText;
-                
-                attributedText = [[NSAttributedString alloc] initWithString:self.EURTitleLabel.text attributes:@{NSShadowAttributeName: shadow}];
-                self.EURTitleLabel.attributedText = attributedText;
-                
-                self.usd = usd;
-                self.eur = eur;
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    double usd = [json[@"query"][@"results"][@"rate"][0][@"Rate"] doubleValue];
+                    double eur = [json[@"query"][@"results"][@"rate"][1][@"Rate"] doubleValue];
+                    
+                    NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
+                    formatter.decimalSeparator = @",";
+                    formatter.minimumFractionDigits = 2;
+                    formatter.maximumFractionDigits = 2;
+                    
+                    self.USDLabel.text = [formatter stringFromNumber:@(usd)];
+                    self.EURLabel.text = [formatter stringFromNumber:@(eur)];
+                    
+                    if (usd > self.usd) {
+                        self.USDLabel.textColor = [UIColor colorWithRed:(202/255.0) green:(239/255.0) blue:(175/255.0) alpha:0.8];
+                    } else {
+                        self.USDLabel.textColor = [UIColor colorWithRed:(239/255.0) green:(175/255.0) blue:(175/255.0) alpha:0.8];
+                    }
+                    
+                    if (eur > self.eur) {
+                        self.EURLabel.textColor = [UIColor colorWithRed:(202/255.0) green:(239/255.0) blue:(175/255.0) alpha:0.8];
+                    } else {
+                        self.EURLabel.textColor = [UIColor colorWithRed:(239/255.0) green:(175/255.0) blue:(175/255.0) alpha:0.8];
+                    }
+                    
+                    NSShadow *shadow = [[NSShadow alloc] init];
+                    shadow.shadowColor = [[UIColor blackColor] colorWithAlphaComponent:0.6];
+                    shadow.shadowBlurRadius = 3;
+                    
+                    NSAttributedString *attributedText = [[NSAttributedString alloc] initWithString:self.USDLabel.text attributes:@{NSShadowAttributeName: shadow}];
+                    self.USDLabel.attributedText = attributedText;
+                    
+                    attributedText = [[NSAttributedString alloc] initWithString:self.EURLabel.text attributes:@{NSShadowAttributeName: shadow}];
+                    self.EURLabel.attributedText = attributedText;
+                    
+                    self.USDTitleLabel.textColor = self.USDLabel.textColor;
+                    self.EURTitleLabel.textColor = self.EURLabel.textColor;
+                    
+                    attributedText = [[NSAttributedString alloc] initWithString:self.USDTitleLabel.text attributes:@{NSShadowAttributeName: shadow}];
+                    self.USDTitleLabel.attributedText = attributedText;
+                    
+                    attributedText = [[NSAttributedString alloc] initWithString:self.EURTitleLabel.text attributes:@{NSShadowAttributeName: shadow}];
+                    self.EURTitleLabel.attributedText = attributedText;
+                    
+                    self.usd = usd;
+                    self.eur = eur;
+                });
             }
         }
     }] resume];
@@ -142,7 +144,7 @@
     
     [self.player play];
     
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(fire:) userInfo:nil repeats:YES];
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(fire:) userInfo:nil repeats:YES];
     [self fire:nil];
 }
 
