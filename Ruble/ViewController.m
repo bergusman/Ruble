@@ -92,10 +92,14 @@
     }] resume];
 }
 
+- (NSArray *)videos {
+    return @[@"natasha.mp4", @"vanessa.mp4", @"snejanna.mp4", @"girls.mp4", @"girl2.mp4", @"anya.mp4", @"katya.mp4", @"vera.mp4", @"marina.mp4"];
+}
+
 - (void)didEndPlay:(NSNotification *)notification {
     [[NSNotificationCenter defaultCenter] removeObserver:self name:AVPlayerItemDidPlayToEndTimeNotification object:notification.object];
     
-    NSArray *videos = @[@"natasha.mp4", @"vanessa.mp4", @"snejanna.mp4", @"girls.mp4", @"girl2.mp4", @"anya.mp4", @"katya.mp4", @"vera.mp4", @"marina.mp4"];
+    NSArray *videos = [self videos];
     NSMutableArray *playerItems = [NSMutableArray array];
     
     for (NSString *video in videos) {
@@ -121,7 +125,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSArray *videos = @[@"natasha.mp4", @"vanessa.mp4", @"snejanna.mp4", @"girls.mp4", @"girl2.mp4", @"anya.mp4", @"katya.mp4", @"vera.mp4", @"marina.mp4"];
+    NSArray *videos = [self videos];
     NSMutableArray *playerItems = [NSMutableArray array];
     
     for (NSString *video in videos) {
@@ -146,6 +150,14 @@
     
     self.timer = [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(fire:) userInfo:nil repeats:YES];
     [self fire:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationWillEnterForegroundNotification:) name:UIApplicationWillEnterForegroundNotification object:nil];
+}
+
+- (void)applicationWillEnterForegroundNotification:(NSNotification *)notification {
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.player play];
+    });
 }
 
 - (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator>)coordinator {
