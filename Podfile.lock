@@ -1,0 +1,15 @@
+PODS:
+  - FlurrySDK (5.4.0):
+    - FlurrySDK/FlurrySDK
+  - FlurrySDK/FlurrySDK (5.4.0)
+  - Reveal-iOS-SDK (1.0.7)
+
+DEPENDENCIES:
+  - FlurrySDK (~> 5.4)
+  - Reveal-iOS-SDK (~> 1.0)
+
+SPEC CHECKSUMS:
+  FlurrySDK: bed9e5598353f867508d164795a451e3ada92cb6
+  Reveal-iOS-SDK: 7ee5e9b37ef13dcd93ae1736c1b72c7c650da3e3
+
+COCOAPODS: 0.33.1

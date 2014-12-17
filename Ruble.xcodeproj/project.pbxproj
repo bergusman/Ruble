@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD5C9E8D1A41F5FC006DCEED /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5C9E8B1A41F5FC006DCEED /* Crashlytics.framework */; };
+		AD5C9E8E1A41F5FC006DCEED /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5C9E8C1A41F5FC006DCEED /* Fabric.framework */; };
 		AD95411F1A40D5DA0081FB17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD95411E1A40D5DA0081FB17 /* main.m */; };
 		AD9541221A40D5DA0081FB17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9541211A40D5DA0081FB17 /* AppDelegate.m */; };
 		AD9541251A40D5DA0081FB17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9541241A40D5DA0081FB17 /* ViewController.m */; };
@@ -24,6 +26,7 @@
 		AD9541521A40EE2D0081FB17 /* PlayerLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9541511A40EE2D0081FB17 /* PlayerLayerView.m */; };
 		AD9541551A40FA020081FB17 /* katya.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD9541541A40FA010081FB17 /* katya.mp4 */; };
 		AD9541571A40FA210081FB17 /* marina.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD9541561A40FA210081FB17 /* marina.mp4 */; };
+		BCE15AB69AF2483CA662EF47 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CCC0EF021F40E5A4C71082 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18CCC0EF021F40E5A4C71082 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5C9E8B1A41F5FC006DCEED /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		AD5C9E8C1A41F5FC006DCEED /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		AD9541191A40D5DA0081FB17 /* Ruble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ruble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD95411D1A40D5DA0081FB17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD95411E1A40D5DA0081FB17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -61,6 +67,7 @@
 		AD9541511A40EE2D0081FB17 /* PlayerLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerLayerView.m; sourceTree = "<group>"; };
 		AD9541541A40FA010081FB17 /* katya.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = katya.mp4; sourceTree = "<group>"; };
 		AD9541561A40FA210081FB17 /* marina.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = marina.mp4; sourceTree = "<group>"; };
+		BB6B7E21CCE44D50A373E770 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +75,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5C9E8D1A41F5FC006DCEED /* Crashlytics.framework in Frameworks */,
+				BCE15AB69AF2483CA662EF47 /* libPods.a in Frameworks */,
+				AD5C9E8E1A41F5FC006DCEED /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +96,9 @@
 			children = (
 				AD95411B1A40D5DA0081FB17 /* Ruble */,
 				AD9541351A40D5DA0081FB17 /* RubleTests */,
+				D4B0216D5DBE46F0825AE7F4 /* Frameworks */,
 				AD95411A1A40D5DA0081FB17 /* Products */,
+				BB6B7E21CCE44D50A373E770 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +171,16 @@
 			name = Videos;
 			sourceTree = "<group>";
 		};
+		D4B0216D5DBE46F0825AE7F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD5C9E8B1A41F5FC006DCEED /* Crashlytics.framework */,
+				AD5C9E8C1A41F5FC006DCEED /* Fabric.framework */,
+				18CCC0EF021F40E5A4C71082 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD95413C1A40D5DA0081FB17 /* Build configuration list for PBXNativeTarget "Ruble" */;
 			buildPhases = (
+				F09F758E82544F3E9E7DE4E3 /* Check Pods Manifest.lock */,
 				AD9541151A40D5DA0081FB17 /* Sources */,
 				AD9541161A40D5DA0081FB17 /* Frameworks */,
 				AD9541171A40D5DA0081FB17 /* Resources */,
+				B55816C1970D48C297CE9600 /* Copy Pods Resources */,
+				AD5C9E8A1A41F5C6006DCEED /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -262,6 +287,52 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD5C9E8A1A41F5C6006DCEED /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 43bdaee89a9a66824f56a6da19395009058a1b34 0669c5e7e46df6fafd4a161dfc4f5fce3eb21c49c09f23ff73babcbb2e526422";
+		};
+		B55816C1970D48C297CE9600 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F09F758E82544F3E9E7DE4E3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD9541151A40D5DA0081FB17 /* Sources */ = {
@@ -391,8 +462,13 @@
 		};
 		AD95413D1A40D5DA0081FB17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB6B7E21CCE44D50A373E770 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Ruble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -401,8 +477,13 @@
 		};
 		AD95413E1A40D5DA0081FB17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB6B7E21CCE44D50A373E770 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Ruble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -462,6 +543,7 @@
 				AD95413E1A40D5DA0081FB17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD95413F1A40D5DA0081FB17 /* Build configuration list for PBXNativeTarget "RubleTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +552,7 @@
 				AD9541411A40D5DA0081FB17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
