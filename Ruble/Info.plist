@@ -38,19 +38,24 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
-	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
 	</array>
 	<key>UIStatusBarHidden</key>
-	<true/>
+	<false/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>PFAgoraSansPro-Bold.ttf</string>
+		<string>PFAgoraSansPro-MediumRocketbank.ttf</string>
+		<string>PFAgoraSansPro-RegRocketbank.ttf</string>
+		<string>PFAgoraSansPro-LightRocketbank.ttf</string>
+		<string>PFAgoraSansPro-ThinRocketbank.ttf</string>
+		<string>PFAgoraSansPro-XThinRocketbank.ttf</string>
 	</array>
 </dict>
 </plist>

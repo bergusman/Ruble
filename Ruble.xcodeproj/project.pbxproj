@@ -9,23 +9,28 @@
 /* Begin PBXBuildFile section */
 		AD5C9E8D1A41F5FC006DCEED /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5C9E8B1A41F5FC006DCEED /* Crashlytics.framework */; };
 		AD5C9E8E1A41F5FC006DCEED /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5C9E8C1A41F5FC006DCEED /* Fabric.framework */; };
+		AD5C9E9B1A42278B006DCEED /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5C9E991A42278B006DCEED /* MainViewController.m */; };
+		AD5C9E9C1A42278B006DCEED /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD5C9E9A1A42278B006DCEED /* MainViewController.xib */; };
+		AD5C9E9F1A42288D006DCEED /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD5C9E9E1A42288D006DCEED /* background.jpg */; };
+		AD5C9EA11A4228EB006DCEED /* Quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = AD5C9EA01A4228EB006DCEED /* Quotes.json */; };
+		AD5C9EA61A422A13006DCEED /* Quote.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5C9EA51A422A13006DCEED /* Quote.m */; };
+		AD5C9EA91A422AE5006DCEED /* Quotes.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5C9EA81A422AE5006DCEED /* Quotes.m */; };
+		AD5C9EB11A423337006DCEED /* PFAgoraSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD5C9EAB1A423337006DCEED /* PFAgoraSansPro-Bold.ttf */; };
+		AD5C9EB21A423337006DCEED /* PFAgoraSansPro-LightRocketbank.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD5C9EAC1A423337006DCEED /* PFAgoraSansPro-LightRocketbank.ttf */; };
+		AD5C9EB31A423337006DCEED /* PFAgoraSansPro-MediumRocketbank.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD5C9EAD1A423337006DCEED /* PFAgoraSansPro-MediumRocketbank.ttf */; };
+		AD5C9EB41A423337006DCEED /* PFAgoraSansPro-RegRocketbank.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD5C9EAE1A423337006DCEED /* PFAgoraSansPro-RegRocketbank.ttf */; };
+		AD5C9EB51A423337006DCEED /* PFAgoraSansPro-ThinRocketbank.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD5C9EAF1A423337006DCEED /* PFAgoraSansPro-ThinRocketbank.ttf */; };
+		AD5C9EB61A423337006DCEED /* PFAgoraSansPro-XThinRocketbank.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD5C9EB01A423337006DCEED /* PFAgoraSansPro-XThinRocketbank.ttf */; };
+		AD5C9EC11A4234D2006DCEED /* UIFont+Agora.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5C9EB81A4234D2006DCEED /* UIFont+Agora.m */; };
+		AD5C9EC21A4234D2006DCEED /* FontLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5C9EBA1A4234D2006DCEED /* FontLabel.m */; };
+		AD5C9EC31A4234D2006DCEED /* AgoraLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5C9EBC1A4234D2006DCEED /* AgoraLabel.m */; };
+		AD5C9EC41A4234D2006DCEED /* AgoraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5C9EBE1A4234D2006DCEED /* AgoraButton.m */; };
+		AD5C9EC51A4234D2006DCEED /* AgoraTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5C9EC01A4234D2006DCEED /* AgoraTextField.m */; };
 		AD95411F1A40D5DA0081FB17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD95411E1A40D5DA0081FB17 /* main.m */; };
 		AD9541221A40D5DA0081FB17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9541211A40D5DA0081FB17 /* AppDelegate.m */; };
-		AD9541251A40D5DA0081FB17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9541241A40D5DA0081FB17 /* ViewController.m */; };
-		AD9541281A40D5DA0081FB17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9541261A40D5DA0081FB17 /* Main.storyboard */; };
 		AD95412A1A40D5DA0081FB17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9541291A40D5DA0081FB17 /* Images.xcassets */; };
 		AD95412D1A40D5DA0081FB17 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD95412B1A40D5DA0081FB17 /* LaunchScreen.xib */; };
 		AD9541391A40D5DA0081FB17 /* RubleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9541381A40D5DA0081FB17 /* RubleTests.m */; };
-		AD9541431A40D7A70081FB17 /* natasha.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD9541421A40D7A70081FB17 /* natasha.mp4 */; };
-		AD9541451A40D7AF0081FB17 /* vanessa.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD9541441A40D7AF0081FB17 /* vanessa.mp4 */; };
-		AD9541471A40E8610081FB17 /* vera.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD9541461A40E8610081FB17 /* vera.mp4 */; };
-		AD95414A1A40E8850081FB17 /* girls.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD9541491A40E8850081FB17 /* girls.mp4 */; };
-		AD95414C1A40E88C0081FB17 /* girl2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD95414B1A40E88C0081FB17 /* girl2.mp4 */; };
-		AD95414E1A40E89B0081FB17 /* anya.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD95414D1A40E89B0081FB17 /* anya.mp4 */; };
-		AD95414F1A40E89F0081FB17 /* snejanna.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD9541481A40E87F0081FB17 /* snejanna.mp4 */; };
-		AD9541521A40EE2D0081FB17 /* PlayerLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9541511A40EE2D0081FB17 /* PlayerLayerView.m */; };
-		AD9541551A40FA020081FB17 /* katya.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD9541541A40FA010081FB17 /* katya.mp4 */; };
-		AD9541571A40FA210081FB17 /* marina.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD9541561A40FA210081FB17 /* marina.mp4 */; };
 		BCE15AB69AF2483CA662EF47 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CCC0EF021F40E5A4C71082 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -43,30 +48,41 @@
 		18CCC0EF021F40E5A4C71082 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5C9E8B1A41F5FC006DCEED /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		AD5C9E8C1A41F5FC006DCEED /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		AD5C9E981A42278B006DCEED /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AD5C9E991A42278B006DCEED /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AD5C9E9A1A42278B006DCEED /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		AD5C9E9E1A42288D006DCEED /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		AD5C9EA01A4228EB006DCEED /* Quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Quotes.json; sourceTree = "<group>"; };
+		AD5C9EA41A422A13006DCEED /* Quote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quote.h; sourceTree = "<group>"; };
+		AD5C9EA51A422A13006DCEED /* Quote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quote.m; sourceTree = "<group>"; };
+		AD5C9EA71A422AE5006DCEED /* Quotes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quotes.h; sourceTree = "<group>"; };
+		AD5C9EA81A422AE5006DCEED /* Quotes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quotes.m; sourceTree = "<group>"; };
+		AD5C9EAB1A423337006DCEED /* PFAgoraSansPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PFAgoraSansPro-Bold.ttf"; sourceTree = "<group>"; };
+		AD5C9EAC1A423337006DCEED /* PFAgoraSansPro-LightRocketbank.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PFAgoraSansPro-LightRocketbank.ttf"; sourceTree = "<group>"; };
+		AD5C9EAD1A423337006DCEED /* PFAgoraSansPro-MediumRocketbank.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PFAgoraSansPro-MediumRocketbank.ttf"; sourceTree = "<group>"; };
+		AD5C9EAE1A423337006DCEED /* PFAgoraSansPro-RegRocketbank.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PFAgoraSansPro-RegRocketbank.ttf"; sourceTree = "<group>"; };
+		AD5C9EAF1A423337006DCEED /* PFAgoraSansPro-ThinRocketbank.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PFAgoraSansPro-ThinRocketbank.ttf"; sourceTree = "<group>"; };
+		AD5C9EB01A423337006DCEED /* PFAgoraSansPro-XThinRocketbank.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PFAgoraSansPro-XThinRocketbank.ttf"; sourceTree = "<group>"; };
+		AD5C9EB71A4234D2006DCEED /* UIFont+Agora.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Agora.h"; sourceTree = "<group>"; };
+		AD5C9EB81A4234D2006DCEED /* UIFont+Agora.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Agora.m"; sourceTree = "<group>"; };
+		AD5C9EB91A4234D2006DCEED /* FontLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontLabel.h; sourceTree = "<group>"; };
+		AD5C9EBA1A4234D2006DCEED /* FontLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontLabel.m; sourceTree = "<group>"; };
+		AD5C9EBB1A4234D2006DCEED /* AgoraLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgoraLabel.h; sourceTree = "<group>"; };
+		AD5C9EBC1A4234D2006DCEED /* AgoraLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgoraLabel.m; sourceTree = "<group>"; };
+		AD5C9EBD1A4234D2006DCEED /* AgoraButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgoraButton.h; sourceTree = "<group>"; };
+		AD5C9EBE1A4234D2006DCEED /* AgoraButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgoraButton.m; sourceTree = "<group>"; };
+		AD5C9EBF1A4234D2006DCEED /* AgoraTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgoraTextField.h; sourceTree = "<group>"; };
+		AD5C9EC01A4234D2006DCEED /* AgoraTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgoraTextField.m; sourceTree = "<group>"; };
 		AD9541191A40D5DA0081FB17 /* Ruble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ruble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD95411D1A40D5DA0081FB17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD95411E1A40D5DA0081FB17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD9541201A40D5DA0081FB17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD9541211A40D5DA0081FB17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AD9541231A40D5DA0081FB17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AD9541241A40D5DA0081FB17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AD9541271A40D5DA0081FB17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD9541291A40D5DA0081FB17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AD95412C1A40D5DA0081FB17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AD9541321A40D5DA0081FB17 /* RubleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9541371A40D5DA0081FB17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD9541381A40D5DA0081FB17 /* RubleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubleTests.m; sourceTree = "<group>"; };
-		AD9541421A40D7A70081FB17 /* natasha.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = natasha.mp4; sourceTree = "<group>"; };
-		AD9541441A40D7AF0081FB17 /* vanessa.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vanessa.mp4; sourceTree = "<group>"; };
-		AD9541461A40E8610081FB17 /* vera.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vera.mp4; sourceTree = "<group>"; };
-		AD9541481A40E87F0081FB17 /* snejanna.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = snejanna.mp4; sourceTree = "<group>"; };
-		AD9541491A40E8850081FB17 /* girls.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = girls.mp4; sourceTree = "<group>"; };
-		AD95414B1A40E88C0081FB17 /* girl2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = girl2.mp4; sourceTree = "<group>"; };
-		AD95414D1A40E89B0081FB17 /* anya.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = anya.mp4; sourceTree = "<group>"; };
-		AD9541501A40EE2D0081FB17 /* PlayerLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerLayerView.h; sourceTree = "<group>"; };
-		AD9541511A40EE2D0081FB17 /* PlayerLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerLayerView.m; sourceTree = "<group>"; };
-		AD9541541A40FA010081FB17 /* katya.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = katya.mp4; sourceTree = "<group>"; };
-		AD9541561A40FA210081FB17 /* marina.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = marina.mp4; sourceTree = "<group>"; };
 		BB6B7E21CCE44D50A373E770 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,8 +122,9 @@
 		AD5C9E901A422208006DCEED /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AD9541531A40F53C0081FB17 /* Videos */,
-				AD9541261A40D5DA0081FB17 /* Main.storyboard */,
+				AD5C9EA21A4228F8006DCEED /* JSONs */,
+				AD5C9EAA1A42331E006DCEED /* Fonts */,
+				AD5C9E9D1A422882006DCEED /* Images */,
 				AD9541291A40D5DA0081FB17 /* Images.xcassets */,
 				AD95412B1A40D5DA0081FB17 /* LaunchScreen.xib */,
 			);
@@ -126,6 +143,7 @@
 		AD5C9E921A422247006DCEED /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AD5C9EA31A422A00006DCEED /* Quote */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -133,7 +151,8 @@
 		AD5C9E931A42224E006DCEED /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				AD5C9E951A422266006DCEED /* Player Layer */,
+				AD5C9EC61A4234DA006DCEED /* Font Label */,
+				AD5C9EC71A4234E0006DCEED /* Agora Kit */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -141,26 +160,82 @@
 		AD5C9E941A422254006DCEED /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				AD9541231A40D5DA0081FB17 /* ViewController.h */,
-				AD9541241A40D5DA0081FB17 /* ViewController.m */,
+				AD5C9E981A42278B006DCEED /* MainViewController.h */,
+				AD5C9E991A42278B006DCEED /* MainViewController.m */,
+				AD5C9E9A1A42278B006DCEED /* MainViewController.xib */,
 			);
 			name = Main;
-			sourceTree = "<group>";
-		};
-		AD5C9E951A422266006DCEED /* Player Layer */ = {
-			isa = PBXGroup;
-			children = (
-				AD9541501A40EE2D0081FB17 /* PlayerLayerView.h */,
-				AD9541511A40EE2D0081FB17 /* PlayerLayerView.m */,
-			);
-			name = "Player Layer";
 			sourceTree = "<group>";
 		};
 		AD5C9E961A42227A006DCEED /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				AD5C9EB71A4234D2006DCEED /* UIFont+Agora.h */,
+				AD5C9EB81A4234D2006DCEED /* UIFont+Agora.m */,
 			);
 			name = Helpers;
+			sourceTree = "<group>";
+		};
+		AD5C9E9D1A422882006DCEED /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AD5C9E9E1A42288D006DCEED /* background.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		AD5C9EA21A4228F8006DCEED /* JSONs */ = {
+			isa = PBXGroup;
+			children = (
+				AD5C9EA01A4228EB006DCEED /* Quotes.json */,
+			);
+			name = JSONs;
+			sourceTree = "<group>";
+		};
+		AD5C9EA31A422A00006DCEED /* Quote */ = {
+			isa = PBXGroup;
+			children = (
+				AD5C9EA41A422A13006DCEED /* Quote.h */,
+				AD5C9EA51A422A13006DCEED /* Quote.m */,
+				AD5C9EA71A422AE5006DCEED /* Quotes.h */,
+				AD5C9EA81A422AE5006DCEED /* Quotes.m */,
+			);
+			name = Quote;
+			sourceTree = "<group>";
+		};
+		AD5C9EAA1A42331E006DCEED /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AD5C9EAB1A423337006DCEED /* PFAgoraSansPro-Bold.ttf */,
+				AD5C9EAC1A423337006DCEED /* PFAgoraSansPro-LightRocketbank.ttf */,
+				AD5C9EAD1A423337006DCEED /* PFAgoraSansPro-MediumRocketbank.ttf */,
+				AD5C9EAE1A423337006DCEED /* PFAgoraSansPro-RegRocketbank.ttf */,
+				AD5C9EAF1A423337006DCEED /* PFAgoraSansPro-ThinRocketbank.ttf */,
+				AD5C9EB01A423337006DCEED /* PFAgoraSansPro-XThinRocketbank.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		AD5C9EC61A4234DA006DCEED /* Font Label */ = {
+			isa = PBXGroup;
+			children = (
+				AD5C9EB91A4234D2006DCEED /* FontLabel.h */,
+				AD5C9EBA1A4234D2006DCEED /* FontLabel.m */,
+			);
+			name = "Font Label";
+			sourceTree = "<group>";
+		};
+		AD5C9EC71A4234E0006DCEED /* Agora Kit */ = {
+			isa = PBXGroup;
+			children = (
+				AD5C9EBB1A4234D2006DCEED /* AgoraLabel.h */,
+				AD5C9EBC1A4234D2006DCEED /* AgoraLabel.m */,
+				AD5C9EBD1A4234D2006DCEED /* AgoraButton.h */,
+				AD5C9EBE1A4234D2006DCEED /* AgoraButton.m */,
+				AD5C9EBF1A4234D2006DCEED /* AgoraTextField.h */,
+				AD5C9EC01A4234D2006DCEED /* AgoraTextField.m */,
+			);
+			name = "Agora Kit";
 			sourceTree = "<group>";
 		};
 		AD9541101A40D5DA0081FB17 = {
@@ -217,22 +292,6 @@
 				AD9541371A40D5DA0081FB17 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AD9541531A40F53C0081FB17 /* Videos */ = {
-			isa = PBXGroup;
-			children = (
-				AD9541561A40FA210081FB17 /* marina.mp4 */,
-				AD9541541A40FA010081FB17 /* katya.mp4 */,
-				AD9541421A40D7A70081FB17 /* natasha.mp4 */,
-				AD9541441A40D7AF0081FB17 /* vanessa.mp4 */,
-				AD9541461A40E8610081FB17 /* vera.mp4 */,
-				AD9541481A40E87F0081FB17 /* snejanna.mp4 */,
-				AD9541491A40E8850081FB17 /* girls.mp4 */,
-				AD95414B1A40E88C0081FB17 /* girl2.mp4 */,
-				AD95414D1A40E89B0081FB17 /* anya.mp4 */,
-			);
-			name = Videos;
 			sourceTree = "<group>";
 		};
 		D4B0216D5DBE46F0825AE7F4 /* Frameworks */ = {
@@ -328,18 +387,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD95414C1A40E88C0081FB17 /* girl2.mp4 in Resources */,
-				AD9541281A40D5DA0081FB17 /* Main.storyboard in Resources */,
-				AD95414A1A40E8850081FB17 /* girls.mp4 in Resources */,
-				AD9541471A40E8610081FB17 /* vera.mp4 in Resources */,
+				AD5C9EA11A4228EB006DCEED /* Quotes.json in Resources */,
+				AD5C9E9C1A42278B006DCEED /* MainViewController.xib in Resources */,
+				AD5C9EB31A423337006DCEED /* PFAgoraSansPro-MediumRocketbank.ttf in Resources */,
 				AD95412D1A40D5DA0081FB17 /* LaunchScreen.xib in Resources */,
-				AD9541431A40D7A70081FB17 /* natasha.mp4 in Resources */,
+				AD5C9EB11A423337006DCEED /* PFAgoraSansPro-Bold.ttf in Resources */,
+				AD5C9EB41A423337006DCEED /* PFAgoraSansPro-RegRocketbank.ttf in Resources */,
 				AD95412A1A40D5DA0081FB17 /* Images.xcassets in Resources */,
-				AD95414E1A40E89B0081FB17 /* anya.mp4 in Resources */,
-				AD9541451A40D7AF0081FB17 /* vanessa.mp4 in Resources */,
-				AD9541571A40FA210081FB17 /* marina.mp4 in Resources */,
-				AD95414F1A40E89F0081FB17 /* snejanna.mp4 in Resources */,
-				AD9541551A40FA020081FB17 /* katya.mp4 in Resources */,
+				AD5C9EB61A423337006DCEED /* PFAgoraSansPro-XThinRocketbank.ttf in Resources */,
+				AD5C9EB51A423337006DCEED /* PFAgoraSansPro-ThinRocketbank.ttf in Resources */,
+				AD5C9E9F1A42288D006DCEED /* background.jpg in Resources */,
+				AD5C9EB21A423337006DCEED /* PFAgoraSansPro-LightRocketbank.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,10 +461,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD9541251A40D5DA0081FB17 /* ViewController.m in Sources */,
-				AD9541521A40EE2D0081FB17 /* PlayerLayerView.m in Sources */,
+				AD5C9EA61A422A13006DCEED /* Quote.m in Sources */,
+				AD5C9EC31A4234D2006DCEED /* AgoraLabel.m in Sources */,
+				AD5C9EC11A4234D2006DCEED /* UIFont+Agora.m in Sources */,
 				AD9541221A40D5DA0081FB17 /* AppDelegate.m in Sources */,
+				AD5C9E9B1A42278B006DCEED /* MainViewController.m in Sources */,
+				AD5C9EA91A422AE5006DCEED /* Quotes.m in Sources */,
 				AD95411F1A40D5DA0081FB17 /* main.m in Sources */,
+				AD5C9EC21A4234D2006DCEED /* FontLabel.m in Sources */,
+				AD5C9EC51A4234D2006DCEED /* AgoraTextField.m in Sources */,
+				AD5C9EC41A4234D2006DCEED /* AgoraButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,14 +493,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AD9541261A40D5DA0081FB17 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD9541271A40D5DA0081FB17 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AD95412B1A40D5DA0081FB17 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
