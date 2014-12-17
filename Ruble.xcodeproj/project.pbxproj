@@ -91,6 +91,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD5C9E8F1A422203006DCEED /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AD5C9E961A42227A006DCEED /* Helpers */,
+				AD5C9E921A422247006DCEED /* Models */,
+				AD5C9E911A422236006DCEED /* Views & Controllers */,
+				AD9541201A40D5DA0081FB17 /* AppDelegate.h */,
+				AD9541211A40D5DA0081FB17 /* AppDelegate.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		AD5C9E901A422208006DCEED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD9541531A40F53C0081FB17 /* Videos */,
+				AD9541261A40D5DA0081FB17 /* Main.storyboard */,
+				AD9541291A40D5DA0081FB17 /* Images.xcassets */,
+				AD95412B1A40D5DA0081FB17 /* LaunchScreen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AD5C9E911A422236006DCEED /* Views & Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD5C9E931A42224E006DCEED /* Common */,
+				AD5C9E941A422254006DCEED /* Main */,
+			);
+			name = "Views & Controllers";
+			sourceTree = "<group>";
+		};
+		AD5C9E921A422247006DCEED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		AD5C9E931A42224E006DCEED /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AD5C9E951A422266006DCEED /* Player Layer */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		AD5C9E941A422254006DCEED /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AD9541231A40D5DA0081FB17 /* ViewController.h */,
+				AD9541241A40D5DA0081FB17 /* ViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		AD5C9E951A422266006DCEED /* Player Layer */ = {
+			isa = PBXGroup;
+			children = (
+				AD9541501A40EE2D0081FB17 /* PlayerLayerView.h */,
+				AD9541511A40EE2D0081FB17 /* PlayerLayerView.m */,
+			);
+			name = "Player Layer";
+			sourceTree = "<group>";
+		};
+		AD5C9E961A42227A006DCEED /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		AD9541101A40D5DA0081FB17 = {
 			isa = PBXGroup;
 			children = (
@@ -114,16 +186,8 @@
 		AD95411B1A40D5DA0081FB17 /* Ruble */ = {
 			isa = PBXGroup;
 			children = (
-				AD9541201A40D5DA0081FB17 /* AppDelegate.h */,
-				AD9541211A40D5DA0081FB17 /* AppDelegate.m */,
-				AD9541231A40D5DA0081FB17 /* ViewController.h */,
-				AD9541241A40D5DA0081FB17 /* ViewController.m */,
-				AD9541501A40EE2D0081FB17 /* PlayerLayerView.h */,
-				AD9541511A40EE2D0081FB17 /* PlayerLayerView.m */,
-				AD9541261A40D5DA0081FB17 /* Main.storyboard */,
-				AD9541291A40D5DA0081FB17 /* Images.xcassets */,
-				AD95412B1A40D5DA0081FB17 /* LaunchScreen.xib */,
-				AD9541531A40F53C0081FB17 /* Videos */,
+				AD5C9E8F1A422203006DCEED /* Sources */,
+				AD5C9E901A422208006DCEED /* Resources */,
 				AD95411C1A40D5DA0081FB17 /* Supporting Files */,
 			);
 			path = Ruble;
